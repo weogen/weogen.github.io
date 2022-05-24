@@ -11,7 +11,7 @@ $ git config --global user.email "email@example.com"
  
  mkdir .ssh  
  cd .ssh  
- ssh-keygen -t rsa -C "youremail@example.com" 
+ ssh-keygen -t rsa -C "youremail@example.com"    
  id_rsa和id_rsa.pub ，把公钥拷贝到GitHub-setting-ssh key -add ssh 
  
   # 3.创建git本地仓库
