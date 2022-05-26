@@ -1,4 +1,4 @@
-#cmake 指令  
+# cmake 指令  
 cmake -D CMAKE_BUILD_TYPE=Release \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.5.4/modules \
