@@ -1,3 +1,6 @@
+# 安装依赖  
+[参考网址](https://dev.to/swervin/how-to-install-opencv-4-2-0-on-ubuntu-18-04-3i7l)  
+
 # cmake 指令  
 cmake -D CMAKE_BUILD_TYPE=Release \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
@@ -26,7 +29,7 @@ cmake -D CMAKE_BUILD_TYPE=Release \
 -D WITH_ONNX=ON \
 -D OPENCV_GENERATE_PKGCONFIG=ON ../
 
+sudo make -j8
 
-make -j4
+sudo make install
 
-make install
