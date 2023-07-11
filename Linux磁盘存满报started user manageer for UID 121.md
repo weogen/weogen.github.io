@@ -7,6 +7,6 @@ df -h
 mount-rw -o remount /   #挂在磁盘
 '''
 # 删除相关文件  
-''' shell
+``` shell
 rm -rf ***
-'''
+```
