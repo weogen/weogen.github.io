@@ -5,8 +5,8 @@
  linux:sudo apt-get install git  
  
  # 2. 设置ssh  
-$ git config --global user.name "Your Name" 
-$ git config --global user.email "email@example.com"  
+$ git config --global user.name "Your Name"   
+$ git config --global user.email "email@example.com"    
  
  
  mkdir .ssh  
