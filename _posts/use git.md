@@ -1,10 +1,10 @@
 ## git使用及上传到GitHub
 
-# 1.安装git
- windows: Git Bash
+# 1.安装git  
+ windows: Git Bash  
  linux:sudo apt-get install git  
  
- # 2. 设置ssh
+ # 2. 设置ssh  
 $ git config --global user.name "Your Name" 
 $ git config --global user.email "email@example.com"  
  
